@@ -1,0 +1,16 @@
+const userData = require('./users/userData')
+const FileDemo = require('./fileSystem/FileDemo')
+// const user = require('./users/user')
+const {userName , userAge , test} = require('./users/user')
+// console.log(user);
+// console.log(user.userName);
+// console.log(user.userAge)
+// console.log(userName)
+// console.log(userAge)
+// test()
+userData.setUserData("ram",100)
+var u = userData.getUserData()
+console.log("user=",u)
+console.log(userData.getUserData())
+FileDemo.createFile()
+// FileDemo.DeleteDemo()
